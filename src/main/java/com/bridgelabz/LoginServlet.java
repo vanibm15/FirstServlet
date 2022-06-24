@@ -18,6 +18,7 @@ import java.io.PrintWriter;
                 @WebInitParam(name="password", value="123456")
         }
 )
+
 public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
